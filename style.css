@@ -13,7 +13,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 150px;
+    margin:0 150px;
+    line-height: 0;
 }
 nav h3{
     font-size: 45px;
@@ -37,7 +38,7 @@ nav ul li a{
     font-size: 20px;
     color: #474747;
 }
-ul li a button{
+.btm-1{
     color: wheat;
     font-size: 30px;
     border-radius: 5px;
@@ -45,4 +46,167 @@ ul li a button{
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+}
+/* ----------------header----------- */
+
+.head{
+    background-image: url(./images/developer.png),url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    background-size:80px;
+    margin-top: 10px !important;
+}
+
+/* ----------banner section------------ */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px 0 150px;
+    
+}
+.banner-content{
+   max-width: 700px; 
+}
+div.text-1{
+ font-size: 10px;
+ color: #474747;
+ line-height: 1px;
+ margin-left: 50px;
+}
+div.text-2{
+font-weight: bold;
+ font-size: 64px;
+ color: #181818;
+ margin-top: 30px;
+ line-height: 10px;
+
+}
+.banner-content p{
+   color: #757575;
+   font-size: 18px;
+}
+
+.banner-img img{
+width: 480px;
+}
+
+
+/* ----------------about------------- */
+.about{
+    padding: 100px;
+    margin: 100px;
+}
+.discription{
+    padding:5px 0;
+}
+.discription h3{
+    text-align: center;
+}
+.discription p{
+    text-align: center;
+}
+.information{
+    display: flex;
+    justify-content: space-around;
+}
+.information .a span{
+    margin:0px 17px;
+}
+
+
+/* --------------main------------- */
+main{
+ 
+}
+.colours1{
+    
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* ----------------------colour---------- */
+.colour-1{
+background-color: #FFF8F3;
+}
+/* ----------skil---------/////////////resume-margin///// */
+.c,.resume{
+    margin-bottom: 130px;
+}
+.b{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.b p{
+    width: 770px ;
+    margin: auto;
+   
+}
+.skill-container1{
+    display: flex;
+    padding: 0 124px;
+    justify-content: space-around;
+
+    
+}
+.skill{
+    padding: 20px;
+    margin: 3px 9px;
+    border-radius: 5px;
+    box-shadow:0 6px 50px 0 rgb(235, 196, 0);
+}
+.skill .skill-discription{
+    color: rgba(117, 117, 117, 1);
+}
+.skill .skill-tital{
+    color: rgba(24, 24, 24, 1);
+    font-size: bold;
+}
+
+
+/* -------------resume-container----------- */
+.resume{
+
+}
+.section-title{
+    text-align: center;
+    color: rgba(24, 24, 24, 1);
+    font-size: 35px;
+    font-weight: bold;
+}
+.resume-container{
+    display: flex;
+    margin: 47px 141px;
+    
+}
+.resume-column{
+padding: 13px 19px;
+
+}
+.experience-title{
+ color: rgba(71, 71, 71, 1);
+ font-size: 25px;   
+ font-weight: bold;
+}
+.experience-sub-title{
+  color: rgba(117, 117, 117, 1);
+  font-size: 20px;  
+  font-weight: 200;
+}
+.experience-discription{
+    font-weight: ;
+    font-size: 16px;
+    color: rgba(117, 117, 117, 1);
+}
+.resume hr{
+    margin: 20px 0px;
+}
+.btn{
+   display: inline-block;
+   text-align: center;
+   margin:auto;
+   
+}
+.text12{
+    text-align: center;
 }
