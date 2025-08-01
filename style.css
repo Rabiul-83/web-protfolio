@@ -201,12 +201,31 @@ padding: 13px 19px;
 .resume hr{
     margin: 20px 0px;
 }
-.btn{
-   display: inline-block;
-   text-align: center;
-   margin:auto;
-   
-}
+
 .text12{
     text-align: center;
+}
+
+/* --------------footer-------------- */
+footer{
+    display: flex;
+    background-color: rgba(255, 248, 243, 1);
+    padding: 50px 100px;
+    gap: 10px;
+}
+.footer-section-columns{
+    padding: 30px;
+    width: 50%;
+    
+}
+footer input[type="text"],footer input[type="Email"],textarea{
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: none;
+   
 }
